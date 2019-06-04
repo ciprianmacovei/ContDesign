@@ -1,0 +1,24 @@
+.fas {
+  font-size: 50px;
+}
+
+/*.carousel-indicators li {*/
+/*  background-color: black;*/
+/*}*/
+
+.black {
+  color:black !important;
+}
+
+.bg {
+  height: 1024px;
+  background-image: url("/assets/background-img/ronak-jain-508688-unsplash.jpg");
+  /* Center and scale the image nicely */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.carousel-caption {
+  margin-bottom: 15%;
+}
