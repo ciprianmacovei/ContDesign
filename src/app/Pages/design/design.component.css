@@ -1,0 +1,10 @@
+.backgroundCarousel {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  color:white;
+  background-image: url("/assets/background-img/pipera_living_room_sofa_background_01-2048x1152.jpg");
+}
+

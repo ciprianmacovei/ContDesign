@@ -8,6 +8,10 @@
   src: url(assets/fonts/Poppins-ExtraLight.ttf) format("opentype");
 }
 
+body {
+  overflow-x: hidden;
+}
+
 * {
   font-family: Poppins;
 }
