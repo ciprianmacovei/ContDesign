@@ -8,3 +8,25 @@
   background-image: url("/assets/background-img/pipera_living_room_sofa_background_01-2048x1152.jpg");
 }
 
+.category {
+  margin-top:10vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.submenu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.selectC{
+  cursor: pointer;
+}
+
+.selectC:hover {
+  text-decoration:underline;
+}

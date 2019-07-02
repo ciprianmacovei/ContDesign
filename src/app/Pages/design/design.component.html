@@ -11,4 +11,44 @@
 </div>
 
 
-<app-project></app-project>
+<div class="category">
+  <p>
+    SORTEAZA DUPA:&nbsp;
+    <span (click)="selectCategory($event)" class="selectC">CATEGORIE</span>&nbsp;
+    <span (click)="selectCategory($event)" class="selectC">AN</span>&nbsp;
+    <span (click)="selectCategory($event)" class="selectC">PROGRAM</span>&nbsp;
+    <span (click)="selectCategory($event)" class="selectC">STATUS</span>
+  </p>
+</div>
+<div class="submenu" [ngSwitch]="selectedCategory">
+  <div *ngSwitchCase="'CATEGORIE'">
+    <p>
+      <span class="selectC">Toate</span> &nbsp;
+      <span class="selectC">Arhitectura </span> &nbsp;
+      <span class="selectC">Concursuri</span> &nbsp;
+      <span class="selectC">Design de obiect</span> &nbsp;
+      <span class="selectC">Design Interior</span> &nbsp;
+      <span class="selectC">Horeca</span> &nbsp;
+      <span class="selectC">Medicale</span> &nbsp;
+      <span class="selectC">Publice</span>
+    </p>
+  </div>
+  <div *ngSwitchCase="'AN'">
+    asdas
+  </div>
+  <div *ngSwitchCase="'PROGRAM'">
+    asdas
+  </div>
+  <div *ngSwitchCase="'STATUS'">
+    asdas
+  </div>
+
+</div>
+
+<div class="displayProjectImg">
+  <div class="row">
+    <div class="offset-md-2 col-md-4 text-center">IMAGINE</div>
+    <div class="col-md-4 text-center">IMAGINE</div>
+
+  </div>
+</div>

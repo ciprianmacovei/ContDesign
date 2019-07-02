@@ -101,7 +101,7 @@
 
 .images:hover {
   cursor: pointer;
-  opacity: 0.2;
+  opacity: 0.6;
 }
 
 @media all and (max-width: 500px) {
