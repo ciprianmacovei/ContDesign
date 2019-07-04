@@ -20,8 +20,11 @@ export class NavbarComponent implements OnInit,OnDestroy {
     this.nabBarSubscription = this.navBarStatus.colapse.subscribe( (res:Boolean) => {
       if (res) {
         $('.navbar').removeClass('bg-dark').removeClass('navbar-dark').addClass('bg-light').addClass('navbar-light');
+        $('.navbar-brand').attr('src','../../../assets/logos/alb.png');
       } else {
         $('.navbar').removeClass('bg-light').removeClass('navbar-light').addClass('bg-dark').addClass('navbar-dark');
+        $('.navbar-brand').attr('src','../../../assets/logos/gri.png');
+
       }
     });
   }
